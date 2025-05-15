@@ -3,26 +3,37 @@ from google.genai import types
 import os
 import dotenv
 import json
+from agno.agent import Agent
+from agno.models.google import Gemini
+from pydantic import BaseModel, Field
+
 
 dotenv.load_dotenv()
 
-MODEL = "gemini-2.0-flash-lite"
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+MODEL = "gemini-2.5-pro-preview-05-06"
+# client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
+class EmailResponse(BaseModel):
+    subject: str = Field(description="The subject of the email")
+    body: str = Field(description="The body of the email")
+
+class EmailVerifierResponse(BaseModel):
+    email_exists: bool = Field(description="Whether the email exists in the list")
+    email: str = Field(description="The email that is present in the content")
+    name: str = Field(description="The name that is present in the content")
 
 def gemini_email_writer(prompt):
-    response = client.models.generate_content(
-        model=MODEL,
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            system_instruction="""
+    email_builder_agent = Agent(
+        model=Gemini(
+            id="gemini-2.0-flash",
+            grounding=False,
+            system_prompt="""
             <Instructions>
             You are a copywriter agent for my email.
             You are my personal assistant and I trust your judgement.
             You need to write a pure copy of email without any placeholders or templates.
             You need to write a email that sounds like it is written by a human.
             Keep the tone of email to be business casual.
-            Keep the email short and to the point.
             Make sure that you are not repeating the same words or phrases.
             Don't use too many adjectives.
             Don't use very heavy english, keep it simple and natural.
@@ -34,33 +45,25 @@ def gemini_email_writer(prompt):
             - You MUST NOT use [YOUR NAME] or [MY NAME] in the email or any other placeholder.
             </SUPER IMPORTANT>
             """,
-            response_mime_type="application/json",
-            response_schema=genai.types.Schema(
-            type = genai.types.Type.OBJECT,
-            required = ["subject", "body"],
-            properties = {
-                "subject": genai.types.Schema(
-                    type = genai.types.Type.STRING,
-                ),
-                "body": genai.types.Schema(
-                    type = genai.types.Type.STRING,
-                ),
-            },
+            search=False
         ),
-        ),
+        structured_outputs=True,
+        use_json_mode=True,
+        response_model=EmailResponse,
     )
-    response_json = json.loads(response.text)
-    return {
-        "subject": response_json["subject"],
-        "body": response_json["body"],
-    }
+    email_builder_agent.print_response(prompt)
+    # response_json = json.loads(response)
+    # return {
+    #     "subject": response_json["subject"],
+    #     "body": response_json["body"],
+    # }
 
 def email_verifier(content: str, emails: list[dict]) -> dict:
-    response = client.models.generate_content(
-        model=MODEL,
-        contents=f"Content: {content}\nEmails: {emails}",
-        config=types.GenerateContentConfig(
-            system_instruction="""
+    email_verifier_agent = Agent(
+        model=Gemini(
+            id="gemini-2.0-flash",
+            grounding=True,
+            system_prompt="""
             You are a email verifier agent.
             You are my personal assistant and I trust your judgement.
             I have a list of emails and I want you to check 2 things:
@@ -77,28 +80,13 @@ def email_verifier(content: str, emails: list[dict]) -> dict:
             If both are present, return the email and the name.
             If neither are present, return false.
             """,
-            response_mime_type="application/json",
-            response_schema=genai.types.Schema(
-            type = genai.types.Type.OBJECT,
-            required = ["email_exists", "email"],
-            properties = {
-                "email_exists": genai.types.Schema(
-                    type = genai.types.Type.BOOLEAN,
-                ),
-                "email": genai.types.Schema(
-                    type = genai.types.Type.OBJECT,
-                    properties = {
-                        "name": genai.types.Schema(
-                            type = genai.types.Type.STRING,
-                        ),
-                        "email": genai.types.Schema(
-                            type = genai.types.Type.STRING,
-                        ),
-                    },
-                ),
-            },
         ),
-        ),
+        structured_outputs=True,
+        use_json_mode=True,
+        response_model=EmailVerifierResponse,
     )
+    response = email_verifier_agent.chat(f"Content: {content}\nEmails: {emails}")
     response_json = json.loads(response.text)
     return response_json
+
+gemini_email_writer("Write an email to my boss asking for 1 week of leave")

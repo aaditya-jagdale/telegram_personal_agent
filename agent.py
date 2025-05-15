@@ -1,11 +1,10 @@
-from email_service.provider import send_email_and_get_thread
-from email_service.listener import listen_to_thread
-import os
+from agno.agent import Agent
+from agno.models.google import Gemini
 
-if __name__ == "__main__":
-    subject = "Test Thread Email"
-    body = "This is the initial message."
-    receiver = "aadityajagdale.21@gmail.com"
+agent = Agent(
+    model=Gemini(id="gemini-2.0-flash", grounding=True),
+    show_tool_calls=True,
+    markdown=True,
+)
 
-    thread_id = send_email_and_get_thread(subject, body, receiver)
-    listen_to_thread(thread_id, "aadi.21r@gmail.com")
+agent.print_response("Any news from USA?")
