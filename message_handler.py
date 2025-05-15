@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, CallbackContext
 from faster_whisper import WhisperModel
 import os
-from email_provider import send_email
+from email_service.provider import send_email
 from gemini_service import gemini_email_writer, email_verifier
 
 
