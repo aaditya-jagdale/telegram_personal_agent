@@ -1,10 +1,11 @@
 import os
 import logging
 from telegram import Update
-from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, CallbackContext
+from telegram.ext import ApplicationBuilder, CommandHandler, CallbackContext
+from telegram.ext import MessageHandler, filters
 import asyncio # Keep for async handlers, not strictly needed for polling setup itself if handlers are sync
 import dotenv
-from message_handler import echo_message, handle_audio_message
+from incoming_message_handler import echo_message, handle_audio_message
 
 
 # Configure logging
@@ -15,7 +16,7 @@ logger = logging.getLogger(__name__)
 dotenv.load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-
+    
 # Initialize Bot application
 if BOT_TOKEN:
     custom_bot = ApplicationBuilder().token(BOT_TOKEN).build()

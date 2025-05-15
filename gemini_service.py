@@ -7,7 +7,7 @@ from agno.agent import Agent
 from agno.models.google import Gemini
 from pydantic import BaseModel, Field
 
-
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 dotenv.load_dotenv()
 
 MODEL = "gemini-2.5-pro-preview-05-06"
@@ -22,9 +22,10 @@ class EmailVerifierResponse(BaseModel):
     email: str = Field(description="The email that is present in the content")
     name: str = Field(description="The name that is present in the content")
 
-def gemini_email_writer(prompt):
+def gemini_email_writer(prompt: str) -> EmailResponse | None:
     email_builder_agent = Agent(
         model=Gemini(
+            api_key=GEMINI_API_KEY,
             id="gemini-2.0-flash",
             grounding=False,
             system_prompt="""
@@ -51,18 +52,15 @@ def gemini_email_writer(prompt):
         use_json_mode=True,
         response_model=EmailResponse,
     )
-    email_builder_agent.print_response(prompt)
-    # response_json = json.loads(response)
-    # return {
-    #     "subject": response_json["subject"],
-    #     "body": response_json["body"],
-    # }
+    response = email_builder_agent.run(prompt)
+    return response.content
 
-def email_verifier(content: str, emails: list[dict]) -> dict:
+def email_verifier(content: str, emails: list[dict]) -> EmailVerifierResponse | None:
     email_verifier_agent = Agent(
         model=Gemini(
+            api_key=GEMINI_API_KEY,
             id="gemini-2.0-flash",
-            grounding=True,
+            grounding=False,
             system_prompt="""
             You are a email verifier agent.
             You are my personal assistant and I trust your judgement.
@@ -85,8 +83,5 @@ def email_verifier(content: str, emails: list[dict]) -> dict:
         use_json_mode=True,
         response_model=EmailVerifierResponse,
     )
-    response = email_verifier_agent.chat(f"Content: {content}\nEmails: {emails}")
-    response_json = json.loads(response.text)
-    return response_json
-
-gemini_email_writer("Write an email to my boss asking for 1 week of leave")
+    response = email_verifier_agent.run(f"Content: {content}\nEmails: {emails}")
+    return response.content

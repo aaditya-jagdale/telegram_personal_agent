@@ -3,9 +3,9 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, CallbackContext
 from faster_whisper import WhisperModel
 import os
-from email_service.provider import send_email
+import json
+from email_service.provider import send_email_and_get_thread
 from gemini_service import gemini_email_writer, email_verifier
-
 
 
 logger = logging.getLogger(__name__)
@@ -44,7 +44,7 @@ async def handle_audio_message(update: Update, context: CallbackContext) -> None
             if transcription:
                 try:
                     # Email Verifier
-                    email_exists = email_verifier(transcription, [
+                    email_verifier_response = email_verifier(transcription, [
                         {
                             "name": "Sam", 
                             "email": "sam@gmail.com",
@@ -56,33 +56,34 @@ async def handle_audio_message(update: Update, context: CallbackContext) -> None
                             "email": "john@gmail.com",
                         }]
                     )
+                    
 
-                    if not email_exists.email_exists:
+                    if not email_verifier_response.email_exists:
                         await update.message.reply_text("No valid email recipient found in the message.")
                         return
 
                     # Generate email content
                     email_message = gemini_email_writer(
                         f"Write an email based on this transcription: {transcription}\n"
-                        f"Recievers name MUST be: {email_exists.name} "
+                        f"Recievers name MUST be: {email_verifier_response.name} "
                     )
 
                     print("================\n\n")
                     print(email_message)
                     print("\n\n================")
                     
-                    receiver_email = email_exists.email
-                    email_sent_successfully = send_email(
-                        email_message["subject"],
-                        email_message["body"], 
+                    receiver_email = email_verifier_response.email
+                    email_sent_successfully = send_email_and_get_thread(
+                        email_message.subject,
+                        email_message.body, 
                         receiver_email
                     )
 
                     if email_sent_successfully:
                         await update.message.reply_text(
-                            f"✅ Email sent successfully to {email_exists.name}\n\n"
-                            f"Subject: {email_message['subject']}\n\n"
-                            f"Body:\n{email_message['body']}"
+                            f"✅ Email sent successfully to {email_verifier_response.name}\n\n"
+                            f"Subject: {email_message.subject}\n\n"
+                            f"Body:\n{email_message.body}"
                         )
                     else:
                         logger.error("Failed to send email")
