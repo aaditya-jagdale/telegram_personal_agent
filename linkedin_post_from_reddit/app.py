@@ -5,7 +5,6 @@ from telegram.ext import ApplicationBuilder, CommandHandler, CallbackContext
 from telegram.ext import MessageHandler, filters
 import asyncio # Keep for async handlers, not strictly needed for polling setup itself if handlers are sync
 import dotenv
-from handlers.incoming_message_handler import handle_text_message, handle_audio_message
 from handlers.commands import reddit_command, linkedin_command, summary_command
 
 # Configure logging
@@ -31,10 +30,8 @@ async def start_command(update: Update, context: CallbackContext) -> None:
 # Add handlers to the application
 custom_bot.add_handler(CommandHandler("start", start_command))
 custom_bot.add_handler(CommandHandler("reddit", reddit_command))
-custom_bot.add_handler(CommandHandler("linkedin", linkedin_command))
 custom_bot.add_handler(CommandHandler("summary", summary_command))
-custom_bot.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_text_message))
-custom_bot.add_handler(MessageHandler(filters.AUDIO | filters.VOICE, handle_audio_message))
+custom_bot.add_handler(CommandHandler("linkedin", linkedin_command))
 
 if __name__ == "__main__":
     logger.info("Starting bot with polling...")                                                                                                 
