@@ -10,7 +10,7 @@ dotenv.load_dotenv()
 logger = logging.getLogger(__name__)
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-MODEL = "gemini-2.5-flash-preview-05-20"  # Using stable model version
+MODEL = "gemini-2.5-flash-preview-05-20"
 
 async def get_summary_from_agno(data: dict) -> str:
     try:
@@ -239,3 +239,5 @@ def get_relevant_subreddits(description: str) -> list:
     except Exception as e:
         logger.error(f"Error in get_relevant_subreddits: {str(e)}")
         return []
+
+

@@ -1,0 +1,703 @@
+[
+  {
+    "id": 1,
+    "title": "Luxury 2BHK Apartment in Bandra West",
+    "location": "Bandra West, Mumbai",
+    "price_inr": 15000000,
+    "area_sqft": 1050,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "balconies": 2,
+    "property_type": "Independent Flat",
+    "floors_total": 11,
+    "floor_number": 1,
+    "facing": "East",
+    "year_built": 2021,
+    "construction_status": "Ready to Move",
+    "parking": "1 Covered",
+    "furnishing": "Semi-Furnished",
+    "available_from": "2024-07-01",
+    "description": "Beautiful 2BHK apartment in the heart of Bandra West. Located in a premium residential complex with modern amenities. Close to Bandra Station and Linking Road.",
+    "gated_community_facilities": null,
+    "apartment_features": {
+      "modular_kitchen": true,
+      "central_ac": false,
+      "false_ceiling": true,
+      "smart_lighting": false,
+      "video_door_phone": true
+    },
+    "images": [
+      "https://example.com/img1_1.jpg",
+      "https://example.com/img1_2.jpg"
+    ],
+    "nearby_landmarks": ["Bandra Station", "Linking Road", "Bandra Fort"],
+    "loan_eligibility": {
+      "bank_approval": ["SBI", "HDFC"],
+      "loanable_percentage": 80
+    },
+    "contact": {
+      "agent_name": "Rahul Sharma",
+      "agent_phone": "+91-9000000001",
+      "agent_email": "rahul.sharma@realestate.in",
+      "agency": "Property Solutions"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Premium 3BHK in DLF Cyber City",
+    "location": "DLF Cyber City, Gurgaon",
+    "price_inr": 25000000,
+    "area_sqft": 1850,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "balconies": 1,
+    "property_type": "Gated Community",
+    "floors_total": 12,
+    "floor_number": 2,
+    "facing": "East",
+    "year_built": 2022,
+    "construction_status": "Ready to Move",
+    "parking": "2 Covered",
+    "furnishing": "Semi-Furnished",
+    "available_from": "2024-07-01",
+    "description": "Spacious 3BHK apartment in DLF Cyber City. Part of a premium gated community with world-class amenities. Perfect for corporate professionals.",
+    "gated_community_facilities": {
+      "clubhouse": true,
+      "gym": true,
+      "swimming_pool": false
+    },
+    "apartment_features": {
+      "modular_kitchen": true,
+      "central_ac": false,
+      "false_ceiling": true,
+      "smart_lighting": true,
+      "video_door_phone": true
+    },
+    "images": [
+      "https://example.com/img2_1.jpg",
+      "https://example.com/img2_2.jpg"
+    ],
+    "nearby_landmarks": ["DLF Cyber Hub", "Metro Station", "Ambience Mall"],
+    "loan_eligibility": {
+      "bank_approval": ["SBI", "HDFC"],
+      "loanable_percentage": 80
+    },
+    "contact": {
+      "agent_name": "Priya Patel",
+      "agent_phone": "+91-9000000002",
+      "agent_email": "priya.patel@realestate.in",
+      "agency": "Elite Properties"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Luxury 4BHK Villa in Koramangala",
+    "location": "Koramangala, Bangalore",
+    "price_inr": 35000000,
+    "area_sqft": 3200,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "balconies": 2,
+    "property_type": "Independent Villa",
+    "floors_total": 2,
+    "floor_number": 1,
+    "facing": "East",
+    "year_built": 2023,
+    "construction_status": "Ready to Move",
+    "parking": "3 Covered",
+    "furnishing": "Semi-Furnished",
+    "available_from": "2024-07-01",
+    "description": "Exclusive 4BHK villa in the heart of Koramangala. Features a private garden, modern interiors, and premium finishes throughout.",
+    "gated_community_facilities": null,
+    "apartment_features": {
+      "modular_kitchen": true,
+      "central_ac": true,
+      "false_ceiling": true,
+      "smart_lighting": false,
+      "video_door_phone": true
+    },
+    "images": [
+      "https://example.com/img3_1.jpg",
+      "https://example.com/img3_2.jpg"
+    ],
+    "nearby_landmarks": ["Forum Mall", "Koramangala Club", "Tech Parks"],
+    "loan_eligibility": {
+      "bank_approval": ["SBI", "HDFC"],
+      "loanable_percentage": 80
+    },
+    "contact": {
+      "agent_name": "Vikram Singh",
+      "agent_phone": "+91-9000000003",
+      "agent_email": "vikram.singh@realestate.in",
+      "agency": "Luxury Homes"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Premium 5BHK Penthouse in Powai",
+    "location": "Powai, Mumbai",
+    "price_inr": 45000000,
+    "area_sqft": 4200,
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "balconies": 3,
+    "property_type": "Gated Community",
+    "floors_total": 14,
+    "floor_number": 14,
+    "facing": "East",
+    "year_built": 2024,
+    "construction_status": "Ready to Move",
+    "parking": "4 Covered",
+    "furnishing": "Semi-Furnished",
+    "available_from": "2024-07-01",
+    "description": "Luxurious penthouse with panoramic views of Powai Lake. Features a private terrace garden, home automation, and premium amenities.",
+    "gated_community_facilities": {
+      "clubhouse": true,
+      "gym": true,
+      "swimming_pool": true
+    },
+    "apartment_features": {
+      "modular_kitchen": true,
+      "central_ac": true,
+      "false_ceiling": true,
+      "smart_lighting": true,
+      "video_door_phone": true
+    },
+    "images": [
+      "https://example.com/img4_1.jpg",
+      "https://example.com/img4_2.jpg"
+    ],
+    "nearby_landmarks": ["Powai Lake", "Hiranandani Gardens", "IIT Bombay"],
+    "loan_eligibility": {
+      "bank_approval": ["SBI", "HDFC"],
+      "loanable_percentage": 80
+    },
+    "contact": {
+      "agent_name": "Ananya Reddy",
+      "agent_phone": "+91-9000000004",
+      "agent_email": "ananya.reddy@realestate.in",
+      "agency": "Premium Properties"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Studio Apartment in Indiranagar",
+    "location": "Indiranagar, Bangalore",
+    "price_inr": 8500000,
+    "area_sqft": 550,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "balconies": 1,
+    "property_type": "Independent Flat",
+    "floors_total": 8,
+    "floor_number": 5,
+    "facing": "East",
+    "year_built": 2020,
+    "construction_status": "Ready to Move",
+    "parking": "1 Covered",
+    "furnishing": "Semi-Furnished",
+    "available_from": "2024-07-01",
+    "description": "Modern studio apartment in the heart of Indiranagar. Perfect for young professionals or small families. Close to metro station and shopping areas.",
+    "gated_community_facilities": null,
+    "apartment_features": {
+      "modular_kitchen": true,
+      "central_ac": false,
+      "false_ceiling": true,
+      "smart_lighting": false,
+      "video_door_phone": true
+    },
+    "images": [
+      "https://example.com/img5_1.jpg",
+      "https://example.com/img5_2.jpg"
+    ],
+    "nearby_landmarks": [
+      "Indiranagar Metro",
+      "100 Feet Road",
+      "Commercial Street"
+    ],
+    "loan_eligibility": {
+      "bank_approval": ["SBI", "HDFC"],
+      "loanable_percentage": 80
+    },
+    "contact": {
+      "agent_name": "Rajesh Kumar",
+      "agent_phone": "+91-9000000005",
+      "agent_email": "rajesh.kumar@realestate.in",
+      "agency": "City Homes"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Property 6 Title",
+    "location": "City 6",
+    "price_inr": 6000000,
+    "area_sqft": 1300,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "balconies": 1,
+    "property_type": "Gated Community",
+    "floors_total": 16,
+    "floor_number": 6,
+    "facing": "East",
+    "year_built": 2021,
+    "construction_status": "Ready to Move",
+    "parking": "1 Covered",
+    "furnishing": "Semi-Furnished",
+    "available_from": "2025-07-01",
+    "description": "Sample description for property 6",
+    "gated_community_facilities": {
+      "clubhouse": true,
+      "gym": true,
+      "swimming_pool": true
+    },
+    "apartment_features": {
+      "modular_kitchen": true,
+      "central_ac": false,
+      "false_ceiling": true,
+      "smart_lighting": true,
+      "video_door_phone": true
+    },
+    "images": [
+      "https://example.com/img6_1.jpg",
+      "https://example.com/img6_2.jpg"
+    ],
+    "nearby_landmarks": ["Landmark 6A", "Landmark 6B"],
+    "loan_eligibility": {
+      "bank_approval": ["SBI", "HDFC"],
+      "loanable_percentage": 80
+    },
+    "contact": {
+      "agent_name": "Agent 6",
+      "agent_phone": "+91-9000000006",
+      "agent_email": "agent6@realestate.in",
+      "agency": "Agency 6"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Luxury 3BHK in Jubilee Hills",
+    "location": "Jubilee Hills, Hyderabad",
+    "price_inr": 28000000,
+    "area_sqft": 2200,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "balconies": 2,
+    "property_type": "Independent Flat",
+    "floors_total": 12,
+    "floor_number": 7,
+    "facing": "East",
+    "year_built": 2022,
+    "construction_status": "Ready to Move",
+    "parking": "2 Covered",
+    "furnishing": "Semi-Furnished",
+    "available_from": "2024-07-01",
+    "description": "Premium 3BHK apartment in the upscale Jubilee Hills area. Features modern interiors, high-end finishes, and panoramic city views. Part of a prestigious residential complex.",
+    "gated_community_facilities": null,
+    "apartment_features": {
+      "modular_kitchen": true,
+      "central_ac": true,
+      "false_ceiling": true,
+      "smart_lighting": true,
+      "video_door_phone": true
+    },
+    "images": [
+      "https://example.com/img7_1.jpg",
+      "https://example.com/img7_2.jpg"
+    ],
+    "nearby_landmarks": [
+      "Jubilee Hills Check Post",
+      "Road No. 36",
+      "Hi-Tech City"
+    ],
+    "loan_eligibility": {
+      "bank_approval": ["SBI", "HDFC"],
+      "loanable_percentage": 80
+    },
+    "contact": {
+      "agent_name": "Suresh Reddy",
+      "agent_phone": "+91-9000000007",
+      "agent_email": "suresh.reddy@realestate.in",
+      "agency": "Hyderabad Homes"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Premium 4BHK Villa in Koregaon Park",
+    "location": "Koregaon Park, Pune",
+    "price_inr": 32000000,
+    "area_sqft": 3800,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "balconies": 3,
+    "property_type": "Gated Community",
+    "floors_total": 2,
+    "floor_number": 1,
+    "facing": "East",
+    "year_built": 2023,
+    "construction_status": "Ready to Move",
+    "parking": "3 Covered",
+    "furnishing": "Semi-Furnished",
+    "available_from": "2024-07-01",
+    "description": "Exclusive 4BHK villa in the heart of Koregaon Park. Features a private garden, modern architecture, and premium amenities. Perfect for luxury living.",
+    "gated_community_facilities": {
+      "clubhouse": true,
+      "gym": true,
+      "swimming_pool": true
+    },
+    "apartment_features": {
+      "modular_kitchen": true,
+      "central_ac": true,
+      "false_ceiling": true,
+      "smart_lighting": true,
+      "video_door_phone": true
+    },
+    "images": [
+      "https://example.com/img8_1.jpg",
+      "https://example.com/img8_2.jpg"
+    ],
+    "nearby_landmarks": [
+      "Osho Garden",
+      "Koregaon Park Plaza",
+      "Phoenix Market City"
+    ],
+    "loan_eligibility": {
+      "bank_approval": ["SBI", "HDFC"],
+      "loanable_percentage": 80
+    },
+    "contact": {
+      "agent_name": "Meera Desai",
+      "agent_phone": "+91-9000000008",
+      "agent_email": "meera.desai@realestate.in",
+      "agency": "Pune Properties"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Luxury 5BHK Penthouse in Adyar",
+    "location": "Adyar, Chennai",
+    "price_inr": 42000000,
+    "area_sqft": 4500,
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "balconies": 4,
+    "property_type": "Independent Flat",
+    "floors_total": 15,
+    "floor_number": 15,
+    "facing": "East",
+    "year_built": 2024,
+    "construction_status": "Ready to Move",
+    "parking": "4 Covered",
+    "furnishing": "Semi-Furnished",
+    "available_from": "2024-07-01",
+    "description": "Magnificent penthouse with stunning views of the Bay of Bengal. Features a private terrace garden, home automation, and premium finishes throughout.",
+    "gated_community_facilities": null,
+    "apartment_features": {
+      "modular_kitchen": true,
+      "central_ac": true,
+      "false_ceiling": true,
+      "smart_lighting": true,
+      "video_door_phone": true
+    },
+    "images": [
+      "https://example.com/img9_1.jpg",
+      "https://example.com/img9_2.jpg"
+    ],
+    "nearby_landmarks": ["Adyar Bridge", "IIT Madras", "Phoenix Market City"],
+    "loan_eligibility": {
+      "bank_approval": ["SBI", "HDFC"],
+      "loanable_percentage": 80
+    },
+    "contact": {
+      "agent_name": "Karthik Iyer",
+      "agent_phone": "+91-9000000009",
+      "agent_email": "karthik.iyer@realestate.in",
+      "agency": "Chennai Elite Homes"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Premium 2BHK in Salt Lake City",
+    "location": "Salt Lake City, Kolkata",
+    "price_inr": 18000000,
+    "area_sqft": 1200,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "balconies": 1,
+    "property_type": "Gated Community",
+    "floors_total": 12,
+    "floor_number": 6,
+    "facing": "East",
+    "year_built": 2020,
+    "construction_status": "Ready to Move",
+    "parking": "1 Covered",
+    "furnishing": "Semi-Furnished",
+    "available_from": "2024-07-01",
+    "description": "Well-maintained 2BHK apartment in a premium gated community. Close to IT hub and major commercial centers. Features modern amenities and security.",
+    "gated_community_facilities": {
+      "clubhouse": true,
+      "gym": true,
+      "swimming_pool": false
+    },
+    "apartment_features": {
+      "modular_kitchen": true,
+      "central_ac": false,
+      "false_ceiling": true,
+      "smart_lighting": true,
+      "video_door_phone": true
+    },
+    "images": [
+      "https://example.com/img10_1.jpg",
+      "https://example.com/img10_2.jpg"
+    ],
+    "nearby_landmarks": [
+      "City Centre Mall",
+      "Salt Lake Stadium",
+      "Technopolis"
+    ],
+    "loan_eligibility": {
+      "bank_approval": ["SBI", "HDFC"],
+      "loanable_percentage": 80
+    },
+    "contact": {
+      "agent_name": "Amit Sen",
+      "agent_phone": "+91-9000000010",
+      "agent_email": "amit.sen@realestate.in",
+      "agency": "Kolkata Properties"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Luxury 3BHK in Vasant Kunj",
+    "location": "Vasant Kunj, Delhi",
+    "price_inr": 32000000,
+    "area_sqft": 2400,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "balconies": 2,
+    "property_type": "Independent Flat",
+    "floors_total": 10,
+    "floor_number": 8,
+    "facing": "East",
+    "year_built": 2021,
+    "construction_status": "Ready to Move",
+    "parking": "2 Covered",
+    "furnishing": "Semi-Furnished",
+    "available_from": "2024-07-01",
+    "description": "Spacious 3BHK apartment in the upscale Vasant Kunj area. Features premium finishes, modern amenities, and excellent connectivity.",
+    "gated_community_facilities": null,
+    "apartment_features": {
+      "modular_kitchen": true,
+      "central_ac": true,
+      "false_ceiling": true,
+      "smart_lighting": true,
+      "video_door_phone": true
+    },
+    "images": [
+      "https://example.com/img11_1.jpg",
+      "https://example.com/img11_2.jpg"
+    ],
+    "nearby_landmarks": ["Ambience Mall", "DLF Promenade", "Metro Station"],
+    "loan_eligibility": {
+      "bank_approval": ["SBI", "HDFC"],
+      "loanable_percentage": 80
+    },
+    "contact": {
+      "agent_name": "Neha Gupta",
+      "agent_phone": "+91-9000000011",
+      "agent_email": "neha.gupta@realestate.in",
+      "agency": "Delhi Elite Properties"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Premium 4BHK Villa in Banjara Hills",
+    "location": "Banjara Hills, Hyderabad",
+    "price_inr": 38000000,
+    "area_sqft": 3600,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "balconies": 3,
+    "property_type": "Gated Community",
+    "floors_total": 2,
+    "floor_number": 1,
+    "facing": "East",
+    "year_built": 2022,
+    "construction_status": "Ready to Move",
+    "parking": "3 Covered",
+    "furnishing": "Semi-Furnished",
+    "available_from": "2024-07-01",
+    "description": "Exclusive 4BHK villa in the prestigious Banjara Hills area. Features a private garden, modern architecture, and premium amenities.",
+    "gated_community_facilities": {
+      "clubhouse": true,
+      "gym": true,
+      "swimming_pool": true
+    },
+    "apartment_features": {
+      "modular_kitchen": true,
+      "central_ac": true,
+      "false_ceiling": true,
+      "smart_lighting": true,
+      "video_door_phone": true
+    },
+    "images": [
+      "https://example.com/img12_1.jpg",
+      "https://example.com/img12_2.jpg"
+    ],
+    "nearby_landmarks": ["GVK One Mall", "Road No. 12", "Hi-Tech City"],
+    "loan_eligibility": {
+      "bank_approval": ["SBI", "HDFC"],
+      "loanable_percentage": 80
+    },
+    "contact": {
+      "agent_name": "Ravi Teja",
+      "agent_phone": "+91-9000000012",
+      "agent_email": "ravi.teja@realestate.in",
+      "agency": "Hyderabad Luxury Homes"
+    }
+  },
+  {
+    "id": 13,
+    "title": "Luxury 3BHK in Kalyani Nagar",
+    "location": "Kalyani Nagar, Pune",
+    "price_inr": 26000000,
+    "area_sqft": 2100,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "balconies": 2,
+    "property_type": "Independent Flat",
+    "floors_total": 12,
+    "floor_number": 8,
+    "facing": "East",
+    "year_built": 2023,
+    "construction_status": "Ready to Move",
+    "parking": "2 Covered",
+    "furnishing": "Semi-Furnished",
+    "available_from": "2024-07-01",
+    "description": "Premium 3BHK apartment in the upscale Kalyani Nagar area. Features modern interiors, high-end finishes, and excellent connectivity.",
+    "gated_community_facilities": null,
+    "apartment_features": {
+      "modular_kitchen": true,
+      "central_ac": true,
+      "false_ceiling": true,
+      "smart_lighting": true,
+      "video_door_phone": true
+    },
+    "images": [
+      "https://example.com/img13_1.jpg",
+      "https://example.com/img13_2.jpg"
+    ],
+    "nearby_landmarks": [
+      "Koregaon Park",
+      "Phoenix Market City",
+      "Magarpatta City"
+    ],
+    "loan_eligibility": {
+      "bank_approval": ["SBI", "HDFC"],
+      "loanable_percentage": 80
+    },
+    "contact": {
+      "agent_name": "Pooja Sharma",
+      "agent_phone": "+91-9000000013",
+      "agent_email": "pooja.sharma@realestate.in",
+      "agency": "Pune Premium Properties"
+    }
+  },
+  {
+    "id": 14,
+    "title": "Premium 5BHK Villa in Boat Club Road",
+    "location": "Boat Club Road, Pune",
+    "price_inr": 45000000,
+    "area_sqft": 4200,
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "balconies": 4,
+    "property_type": "Gated Community",
+    "floors_total": 2,
+    "floor_number": 1,
+    "facing": "East",
+    "year_built": 2024,
+    "construction_status": "Ready to Move",
+    "parking": "4 Covered",
+    "furnishing": "Semi-Furnished",
+    "available_from": "2024-07-01",
+    "description": "Exclusive 5BHK villa in the prestigious Boat Club Road area. Features a private garden, modern architecture, and premium amenities.",
+    "gated_community_facilities": {
+      "clubhouse": true,
+      "gym": true,
+      "swimming_pool": true
+    },
+    "apartment_features": {
+      "modular_kitchen": true,
+      "central_ac": true,
+      "false_ceiling": true,
+      "smart_lighting": true,
+      "video_door_phone": true
+    },
+    "images": [
+      "https://example.com/img14_1.jpg",
+      "https://example.com/img14_2.jpg"
+    ],
+    "nearby_landmarks": [
+      "Koregaon Park",
+      "Phoenix Market City",
+      "Magarpatta City"
+    ],
+    "loan_eligibility": {
+      "bank_approval": ["SBI", "HDFC"],
+      "loanable_percentage": 80
+    },
+    "contact": {
+      "agent_name": "Vikram Desai",
+      "agent_phone": "+91-9000000014",
+      "agent_email": "vikram.desai@realestate.in",
+      "agency": "Pune Luxury Homes"
+    }
+  },
+  {
+    "id": 15,
+    "title": "Luxury 2BHK in T Nagar",
+    "location": "T Nagar, Chennai",
+    "price_inr": 22000000,
+    "area_sqft": 1400,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "balconies": 1,
+    "property_type": "Independent Flat",
+    "floors_total": 10,
+    "floor_number": 6,
+    "facing": "East",
+    "year_built": 2020,
+    "construction_status": "Ready to Move",
+    "parking": "1 Covered",
+    "furnishing": "Semi-Furnished",
+    "available_from": "2024-07-01",
+    "description": "Well-maintained 2BHK apartment in the heart of T Nagar. Close to shopping districts and major commercial centers. Features modern amenities.",
+    "gated_community_facilities": null,
+    "apartment_features": {
+      "modular_kitchen": true,
+      "central_ac": false,
+      "false_ceiling": true,
+      "smart_lighting": true,
+      "video_door_phone": true
+    },
+    "images": [
+      "https://example.com/img15_1.jpg",
+      "https://example.com/img15_2.jpg"
+    ],
+    "nearby_landmarks": [
+      "T Nagar Market",
+      "Phoenix Market City",
+      "Metro Station"
+    ],
+    "loan_eligibility": {
+      "bank_approval": ["SBI", "HDFC"],
+      "loanable_percentage": 80
+    },
+    "contact": {
+      "agent_name": "Arun Kumar",
+      "agent_phone": "+91-9000000015",
+      "agent_email": "arun.kumar@realestate.in",
+      "agency": "Chennai Properties"
+    }
+  }
+]
