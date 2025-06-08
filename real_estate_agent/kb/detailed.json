@@ -27,8 +27,7 @@
       "video_door_phone": true
     },
     "images": [
-      "https://example.com/img1_1.jpg",
-      "https://example.com/img1_2.jpg"
+      "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photos/1.jpg"
     ],
     "nearby_landmarks": ["Bandra Station", "Linking Road", "Bandra Fort"],
     "loan_eligibility": {
@@ -36,9 +35,9 @@
       "loanable_percentage": 80
     },
     "contact": {
-      "agent_name": "Rahul Sharma",
-      "agent_phone": "+91-9000000001",
-      "agent_email": "rahul.sharma@realestate.in",
+      "agent_name": "Sarah Johnson",
+      "agent_phone": "+1-555-123-4567",
+      "agent_email": "sarah.johnson@realestate.com",
       "agency": "Property Solutions"
     }
   },
@@ -74,8 +73,7 @@
       "video_door_phone": true
     },
     "images": [
-      "https://example.com/img2_1.jpg",
-      "https://example.com/img2_2.jpg"
+      "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photos/2.jpg"
     ],
     "nearby_landmarks": ["DLF Cyber Hub", "Metro Station", "Ambience Mall"],
     "loan_eligibility": {
@@ -83,9 +81,9 @@
       "loanable_percentage": 80
     },
     "contact": {
-      "agent_name": "Priya Patel",
-      "agent_phone": "+91-9000000002",
-      "agent_email": "priya.patel@realestate.in",
+      "agent_name": "Michael Wilson",
+      "agent_phone": "+1-555-234-5678",
+      "agent_email": "michael.wilson@realestate.com",
       "agency": "Elite Properties"
     }
   },
@@ -117,8 +115,7 @@
       "video_door_phone": true
     },
     "images": [
-      "https://example.com/img3_1.jpg",
-      "https://example.com/img3_2.jpg"
+      "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photos/3.jpg"
     ],
     "nearby_landmarks": ["Forum Mall", "Koramangala Club", "Tech Parks"],
     "loan_eligibility": {
@@ -126,9 +123,9 @@
       "loanable_percentage": 80
     },
     "contact": {
-      "agent_name": "Vikram Singh",
-      "agent_phone": "+91-9000000003",
-      "agent_email": "vikram.singh@realestate.in",
+      "agent_name": "Jessica Brown",
+      "agent_phone": "+1-555-345-6789",
+      "agent_email": "jessica.brown@realestate.com",
       "agency": "Luxury Homes"
     }
   },
@@ -164,8 +161,7 @@
       "video_door_phone": true
     },
     "images": [
-      "https://example.com/img4_1.jpg",
-      "https://example.com/img4_2.jpg"
+      "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photos/4.jpg"
     ],
     "nearby_landmarks": ["Powai Lake", "Hiranandani Gardens", "IIT Bombay"],
     "loan_eligibility": {
@@ -173,9 +169,9 @@
       "loanable_percentage": 80
     },
     "contact": {
-      "agent_name": "Ananya Reddy",
-      "agent_phone": "+91-9000000004",
-      "agent_email": "ananya.reddy@realestate.in",
+      "agent_name": "Sarah Johnson",
+      "agent_phone": "+1-555-123-4567",
+      "agent_email": "sarah.johnson@realestate.com",
       "agency": "Premium Properties"
     }
   },
@@ -207,8 +203,7 @@
       "video_door_phone": true
     },
     "images": [
-      "https://example.com/img5_1.jpg",
-      "https://example.com/img5_2.jpg"
+      "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photos/5.jpg"
     ],
     "nearby_landmarks": [
       "Indiranagar Metro",
@@ -220,9 +215,9 @@
       "loanable_percentage": 80
     },
     "contact": {
-      "agent_name": "Rajesh Kumar",
-      "agent_phone": "+91-9000000005",
-      "agent_email": "rajesh.kumar@realestate.in",
+      "agent_name": "Michael Wilson",
+      "agent_phone": "+1-555-234-5678",
+      "agent_email": "michael.wilson@realestate.com",
       "agency": "City Homes"
     }
   },
@@ -258,8 +253,7 @@
       "video_door_phone": true
     },
     "images": [
-      "https://example.com/img6_1.jpg",
-      "https://example.com/img6_2.jpg"
+      "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photos/6.jpg"
     ],
     "nearby_landmarks": ["Landmark 6A", "Landmark 6B"],
     "loan_eligibility": {
@@ -267,9 +261,9 @@
       "loanable_percentage": 80
     },
     "contact": {
-      "agent_name": "Agent 6",
-      "agent_phone": "+91-9000000006",
-      "agent_email": "agent6@realestate.in",
+      "agent_name": "Jessica Brown",
+      "agent_phone": "+1-555-345-6789",
+      "agent_email": "jessica.brown@realestate.com",
       "agency": "Agency 6"
     }
   },
@@ -301,8 +295,7 @@
       "video_door_phone": true
     },
     "images": [
-      "https://example.com/img7_1.jpg",
-      "https://example.com/img7_2.jpg"
+      "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photos/7.jpg"
     ],
     "nearby_landmarks": [
       "Jubilee Hills Check Post",
@@ -314,9 +307,9 @@
       "loanable_percentage": 80
     },
     "contact": {
-      "agent_name": "Suresh Reddy",
-      "agent_phone": "+91-9000000007",
-      "agent_email": "suresh.reddy@realestate.in",
+      "agent_name": "Sarah Johnson",
+      "agent_phone": "+1-555-123-4567",
+      "agent_email": "sarah.johnson@realestate.com",
       "agency": "Hyderabad Homes"
     }
   },
@@ -352,8 +345,7 @@
       "video_door_phone": true
     },
     "images": [
-      "https://example.com/img8_1.jpg",
-      "https://example.com/img8_2.jpg"
+      "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photos/8.jpg"
     ],
     "nearby_landmarks": [
       "Osho Garden",
@@ -365,9 +357,9 @@
       "loanable_percentage": 80
     },
     "contact": {
-      "agent_name": "Meera Desai",
-      "agent_phone": "+91-9000000008",
-      "agent_email": "meera.desai@realestate.in",
+      "agent_name": "Michael Wilson",
+      "agent_phone": "+1-555-234-5678",
+      "agent_email": "michael.wilson@realestate.com",
       "agency": "Pune Properties"
     }
   },
@@ -399,8 +391,7 @@
       "video_door_phone": true
     },
     "images": [
-      "https://example.com/img9_1.jpg",
-      "https://example.com/img9_2.jpg"
+      "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photos/9.jpg"
     ],
     "nearby_landmarks": ["Adyar Bridge", "IIT Madras", "Phoenix Market City"],
     "loan_eligibility": {
@@ -408,9 +399,9 @@
       "loanable_percentage": 80
     },
     "contact": {
-      "agent_name": "Karthik Iyer",
-      "agent_phone": "+91-9000000009",
-      "agent_email": "karthik.iyer@realestate.in",
+      "agent_name": "Jessica Brown",
+      "agent_phone": "+1-555-345-6789",
+      "agent_email": "jessica.brown@realestate.com",
       "agency": "Chennai Elite Homes"
     }
   },
@@ -446,8 +437,7 @@
       "video_door_phone": true
     },
     "images": [
-      "https://example.com/img10_1.jpg",
-      "https://example.com/img10_2.jpg"
+      "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photos/10.jpg"
     ],
     "nearby_landmarks": [
       "City Centre Mall",
@@ -459,245 +449,10 @@
       "loanable_percentage": 80
     },
     "contact": {
-      "agent_name": "Amit Sen",
-      "agent_phone": "+91-9000000010",
-      "agent_email": "amit.sen@realestate.in",
+      "agent_name": "Sarah Johnson",
+      "agent_phone": "+1-555-123-4567",
+      "agent_email": "sarah.johnson@realestate.com",
       "agency": "Kolkata Properties"
-    }
-  },
-  {
-    "id": 11,
-    "title": "Luxury 3BHK in Vasant Kunj",
-    "location": "Vasant Kunj, Delhi",
-    "price_inr": 32000000,
-    "area_sqft": 2400,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "balconies": 2,
-    "property_type": "Independent Flat",
-    "floors_total": 10,
-    "floor_number": 8,
-    "facing": "East",
-    "year_built": 2021,
-    "construction_status": "Ready to Move",
-    "parking": "2 Covered",
-    "furnishing": "Semi-Furnished",
-    "available_from": "2024-07-01",
-    "description": "Spacious 3BHK apartment in the upscale Vasant Kunj area. Features premium finishes, modern amenities, and excellent connectivity.",
-    "gated_community_facilities": null,
-    "apartment_features": {
-      "modular_kitchen": true,
-      "central_ac": true,
-      "false_ceiling": true,
-      "smart_lighting": true,
-      "video_door_phone": true
-    },
-    "images": [
-      "https://example.com/img11_1.jpg",
-      "https://example.com/img11_2.jpg"
-    ],
-    "nearby_landmarks": ["Ambience Mall", "DLF Promenade", "Metro Station"],
-    "loan_eligibility": {
-      "bank_approval": ["SBI", "HDFC"],
-      "loanable_percentage": 80
-    },
-    "contact": {
-      "agent_name": "Neha Gupta",
-      "agent_phone": "+91-9000000011",
-      "agent_email": "neha.gupta@realestate.in",
-      "agency": "Delhi Elite Properties"
-    }
-  },
-  {
-    "id": 12,
-    "title": "Premium 4BHK Villa in Banjara Hills",
-    "location": "Banjara Hills, Hyderabad",
-    "price_inr": 38000000,
-    "area_sqft": 3600,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "balconies": 3,
-    "property_type": "Gated Community",
-    "floors_total": 2,
-    "floor_number": 1,
-    "facing": "East",
-    "year_built": 2022,
-    "construction_status": "Ready to Move",
-    "parking": "3 Covered",
-    "furnishing": "Semi-Furnished",
-    "available_from": "2024-07-01",
-    "description": "Exclusive 4BHK villa in the prestigious Banjara Hills area. Features a private garden, modern architecture, and premium amenities.",
-    "gated_community_facilities": {
-      "clubhouse": true,
-      "gym": true,
-      "swimming_pool": true
-    },
-    "apartment_features": {
-      "modular_kitchen": true,
-      "central_ac": true,
-      "false_ceiling": true,
-      "smart_lighting": true,
-      "video_door_phone": true
-    },
-    "images": [
-      "https://example.com/img12_1.jpg",
-      "https://example.com/img12_2.jpg"
-    ],
-    "nearby_landmarks": ["GVK One Mall", "Road No. 12", "Hi-Tech City"],
-    "loan_eligibility": {
-      "bank_approval": ["SBI", "HDFC"],
-      "loanable_percentage": 80
-    },
-    "contact": {
-      "agent_name": "Ravi Teja",
-      "agent_phone": "+91-9000000012",
-      "agent_email": "ravi.teja@realestate.in",
-      "agency": "Hyderabad Luxury Homes"
-    }
-  },
-  {
-    "id": 13,
-    "title": "Luxury 3BHK in Kalyani Nagar",
-    "location": "Kalyani Nagar, Pune",
-    "price_inr": 26000000,
-    "area_sqft": 2100,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "balconies": 2,
-    "property_type": "Independent Flat",
-    "floors_total": 12,
-    "floor_number": 8,
-    "facing": "East",
-    "year_built": 2023,
-    "construction_status": "Ready to Move",
-    "parking": "2 Covered",
-    "furnishing": "Semi-Furnished",
-    "available_from": "2024-07-01",
-    "description": "Premium 3BHK apartment in the upscale Kalyani Nagar area. Features modern interiors, high-end finishes, and excellent connectivity.",
-    "gated_community_facilities": null,
-    "apartment_features": {
-      "modular_kitchen": true,
-      "central_ac": true,
-      "false_ceiling": true,
-      "smart_lighting": true,
-      "video_door_phone": true
-    },
-    "images": [
-      "https://example.com/img13_1.jpg",
-      "https://example.com/img13_2.jpg"
-    ],
-    "nearby_landmarks": [
-      "Koregaon Park",
-      "Phoenix Market City",
-      "Magarpatta City"
-    ],
-    "loan_eligibility": {
-      "bank_approval": ["SBI", "HDFC"],
-      "loanable_percentage": 80
-    },
-    "contact": {
-      "agent_name": "Pooja Sharma",
-      "agent_phone": "+91-9000000013",
-      "agent_email": "pooja.sharma@realestate.in",
-      "agency": "Pune Premium Properties"
-    }
-  },
-  {
-    "id": 14,
-    "title": "Premium 5BHK Villa in Boat Club Road",
-    "location": "Boat Club Road, Pune",
-    "price_inr": 45000000,
-    "area_sqft": 4200,
-    "bedrooms": 5,
-    "bathrooms": 5,
-    "balconies": 4,
-    "property_type": "Gated Community",
-    "floors_total": 2,
-    "floor_number": 1,
-    "facing": "East",
-    "year_built": 2024,
-    "construction_status": "Ready to Move",
-    "parking": "4 Covered",
-    "furnishing": "Semi-Furnished",
-    "available_from": "2024-07-01",
-    "description": "Exclusive 5BHK villa in the prestigious Boat Club Road area. Features a private garden, modern architecture, and premium amenities.",
-    "gated_community_facilities": {
-      "clubhouse": true,
-      "gym": true,
-      "swimming_pool": true
-    },
-    "apartment_features": {
-      "modular_kitchen": true,
-      "central_ac": true,
-      "false_ceiling": true,
-      "smart_lighting": true,
-      "video_door_phone": true
-    },
-    "images": [
-      "https://example.com/img14_1.jpg",
-      "https://example.com/img14_2.jpg"
-    ],
-    "nearby_landmarks": [
-      "Koregaon Park",
-      "Phoenix Market City",
-      "Magarpatta City"
-    ],
-    "loan_eligibility": {
-      "bank_approval": ["SBI", "HDFC"],
-      "loanable_percentage": 80
-    },
-    "contact": {
-      "agent_name": "Vikram Desai",
-      "agent_phone": "+91-9000000014",
-      "agent_email": "vikram.desai@realestate.in",
-      "agency": "Pune Luxury Homes"
-    }
-  },
-  {
-    "id": 15,
-    "title": "Luxury 2BHK in T Nagar",
-    "location": "T Nagar, Chennai",
-    "price_inr": 22000000,
-    "area_sqft": 1400,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "balconies": 1,
-    "property_type": "Independent Flat",
-    "floors_total": 10,
-    "floor_number": 6,
-    "facing": "East",
-    "year_built": 2020,
-    "construction_status": "Ready to Move",
-    "parking": "1 Covered",
-    "furnishing": "Semi-Furnished",
-    "available_from": "2024-07-01",
-    "description": "Well-maintained 2BHK apartment in the heart of T Nagar. Close to shopping districts and major commercial centers. Features modern amenities.",
-    "gated_community_facilities": null,
-    "apartment_features": {
-      "modular_kitchen": true,
-      "central_ac": false,
-      "false_ceiling": true,
-      "smart_lighting": true,
-      "video_door_phone": true
-    },
-    "images": [
-      "https://example.com/img15_1.jpg",
-      "https://example.com/img15_2.jpg"
-    ],
-    "nearby_landmarks": [
-      "T Nagar Market",
-      "Phoenix Market City",
-      "Metro Station"
-    ],
-    "loan_eligibility": {
-      "bank_approval": ["SBI", "HDFC"],
-      "loanable_percentage": 80
-    },
-    "contact": {
-      "agent_name": "Arun Kumar",
-      "agent_phone": "+91-9000000015",
-      "agent_email": "arun.kumar@realestate.in",
-      "agency": "Chennai Properties"
     }
   }
 ]

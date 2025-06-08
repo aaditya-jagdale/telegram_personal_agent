@@ -3,3 +3,6 @@ __pycache__/
 **/__pycache__/
 .env
 credentials/
+
+tmp
+tmp/chromadb/chroma.sqlite3

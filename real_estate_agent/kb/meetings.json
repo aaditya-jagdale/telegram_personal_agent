@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "available_at": "2025-06-08 10:00:00",
+    "agent_name": "Sarah Johnson",
+    "agent_phone": "+1-555-123-4567",
+    "agent_email": "sarah.johnson@realestate.com",
+    "agency": "NYC Properties",
+    "status": "pending"
+  },
+  {
+    "id": 2,
+    "available_at": "2025-06-08 11:00:00",
+    "agent_name": "Michael Williams",
+    "agent_phone": "+1-555-234-5678",
+    "agent_email": "michael.williams@realestate.com",
+    "status": "pending"
+  },
+  {
+    "id": 3,
+    "available_at": "2025-06-08 12:00:00",
+    "agent_name": "Jessica Brown",
+    "agent_phone": "+1-555-345-6789",
+    "agent_email": "jessica.brown@realestate.com",
+    "status": "pending"
+  }
+]

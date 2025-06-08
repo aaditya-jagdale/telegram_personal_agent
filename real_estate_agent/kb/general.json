@@ -1,167 +1,112 @@
 [
   {
     "id": 1,
-    "title": "Luxury 2BHK Apartment in Bandra West",
-    "location": "Bandra West, Mumbai",
-    "price_inr": 15000000,
+    "title": "Luxury 2BHK Apartment in Manhattan",
+    "location": "Manhattan, New York",
+    "price_usd": 2500000,
     "area_sqft": 1050,
     "bedrooms": 2,
     "bathrooms": 2,
-    "property_type": "Independent Flat",
-    "image_url": "https://example.com/img1_1.jpg"
+    "property_type": "Luxury Condo",
+    "image_url": "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photo1/1.jpg"
   },
   {
     "id": 2,
-    "title": "Premium 3BHK in DLF Cyber City",
-    "location": "DLF Cyber City, Gurgaon",
-    "price_inr": 25000000,
+    "title": "Premium 3BHK in Downtown LA",
+    "location": "Downtown, Los Angeles",
+    "price_usd": 3800000,
     "area_sqft": 1850,
     "bedrooms": 3,
     "bathrooms": 3,
-    "property_type": "Gated Community",
-    "image_url": "https://example.com/img2_1.jpg"
+    "property_type": "High-rise Condo",
+    "image_url": "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photo1/2.jpg"
   },
   {
     "id": 3,
-    "title": "Luxury 4BHK Villa in Koramangala",
-    "location": "Koramangala, Bangalore",
-    "price_inr": 35000000,
+    "title": "Luxury 4BHK Villa in Beverly Hills",
+    "location": "Beverly Hills, Los Angeles",
+    "price_usd": 12500000,
     "area_sqft": 3200,
     "bedrooms": 4,
     "bathrooms": 4,
-    "property_type": "Independent Villa",
-    "image_url": "https://example.com/img3_1.jpg"
+    "property_type": "Luxury Villa",
+    "image_url": "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photo1/3.jpg"
   },
   {
     "id": 4,
-    "title": "Premium 5BHK Penthouse in Powai",
-    "location": "Powai, Mumbai",
-    "price_inr": 45000000,
+    "title": "Premium 5BHK Penthouse in Miami Beach",
+    "location": "Miami Beach, Florida",
+    "price_usd": 8900000,
     "area_sqft": 4200,
     "bedrooms": 5,
     "bathrooms": 5,
-    "property_type": "Gated Community",
-    "image_url": "https://example.com/img4_1.jpg"
+    "property_type": "Beachfront Penthouse",
+    "image_url": "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photo1/4.jpg"
   },
   {
     "id": 5,
-    "title": "Studio Apartment in Indiranagar",
-    "location": "Indiranagar, Bangalore",
-    "price_inr": 8500000,
+    "title": "Studio Apartment in San Francisco",
+    "location": "SoMa, San Francisco",
+    "price_usd": 950000,
     "area_sqft": 550,
     "bedrooms": 1,
     "bathrooms": 1,
-    "property_type": "Independent Flat",
-    "image_url": "https://example.com/img5_1.jpg"
+    "property_type": "Modern Studio",
+    "image_url": "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photo1/5.jpg"
   },
   {
     "id": 6,
-    "title": "Premium 2BHK in Salt Lake City",
-    "location": "Salt Lake City, Kolkata",
-    "price_inr": 18000000,
+    "title": "Premium 2BHK in Chicago Loop",
+    "location": "The Loop, Chicago",
+    "price_usd": 1800000,
     "area_sqft": 1200,
     "bedrooms": 2,
     "bathrooms": 2,
-    "property_type": "Gated Community",
-    "image_url": "https://example.com/img6_1.jpg"
+    "property_type": "Urban Condo",
+    "image_url": "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photo1/6.jpg"
   },
   {
     "id": 7,
-    "title": "Luxury 3BHK in Jubilee Hills",
-    "location": "Jubilee Hills, Hyderabad",
-    "price_inr": 28000000,
+    "title": "Luxury 3BHK in Boston",
+    "location": "Back Bay, Boston",
+    "price_usd": 4200000,
     "area_sqft": 2200,
     "bedrooms": 3,
     "bathrooms": 3,
-    "property_type": "Independent Flat",
-    "image_url": "https://example.com/img7_1.jpg"
+    "property_type": "Historic Brownstone",
+    "image_url": "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photo1/7.jpg"
   },
   {
     "id": 8,
-    "title": "Premium 4BHK Villa in Koregaon Park",
-    "location": "Koregaon Park, Pune",
-    "price_inr": 32000000,
+    "title": "Premium 4BHK Villa in Seattle",
+    "location": "Queen Anne, Seattle",
+    "price_usd": 5500000,
     "area_sqft": 3800,
     "bedrooms": 4,
     "bathrooms": 4,
-    "property_type": "Gated Community",
-    "image_url": "https://example.com/img8_1.jpg"
+    "property_type": "Modern Villa",
+    "image_url": "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photo1/8.jpg"
   },
   {
     "id": 9,
-    "title": "Luxury 5BHK Penthouse in Adyar",
-    "location": "Adyar, Chennai",
-    "price_inr": 42000000,
+    "title": "Luxury 5BHK Penthouse in Las Vegas",
+    "location": "The Strip, Las Vegas",
+    "price_usd": 7800000,
     "area_sqft": 4500,
     "bedrooms": 5,
     "bathrooms": 5,
-    "property_type": "Independent Flat",
-    "image_url": "https://example.com/img9_1.jpg"
+    "property_type": "Resort Penthouse",
+    "image_url": "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photo1/9.jpg"
   },
   {
     "id": 10,
-    "title": "Premium 2BHK in Salt Lake City",
-    "location": "Salt Lake City, Kolkata",
-    "price_inr": 18000000,
+    "title": "Premium 2BHK in Austin",
+    "location": "Downtown Austin, Texas",
+    "price_usd": 1500000,
     "area_sqft": 1200,
     "bedrooms": 2,
     "bathrooms": 2,
-    "property_type": "Gated Community",
-    "image_url": "https://example.com/img10_1.jpg"
-  },
-  {
-    "id": 11,
-    "title": "Luxury 3BHK in Vasant Kunj",
-    "location": "Vasant Kunj, Delhi",
-    "price_inr": 32000000,
-    "area_sqft": 2400,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "property_type": "Independent Flat",
-    "image_url": "https://example.com/img11_1.jpg"
-  },
-  {
-    "id": 12,
-    "title": "Premium 4BHK Villa in Banjara Hills",
-    "location": "Banjara Hills, Hyderabad",
-    "price_inr": 38000000,
-    "area_sqft": 3600,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "property_type": "Gated Community",
-    "image_url": "https://example.com/img12_1.jpg"
-  },
-  {
-    "id": 13,
-    "title": "Luxury 3BHK in Kalyani Nagar",
-    "location": "Kalyani Nagar, Pune",
-    "price_inr": 26000000,
-    "area_sqft": 2100,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "property_type": "Independent Flat",
-    "image_url": "https://example.com/img13_1.jpg"
-  },
-  {
-    "id": 14,
-    "title": "Premium 5BHK Villa in Boat Club Road",
-    "location": "Boat Club Road, Pune",
-    "price_inr": 45000000,
-    "area_sqft": 4200,
-    "bedrooms": 5,
-    "bathrooms": 5,
-    "property_type": "Gated Community",
-    "image_url": "https://example.com/img14_1.jpg"
-  },
-  {
-    "id": 15,
-    "title": "Luxury 2BHK in T Nagar",
-    "location": "T Nagar, Chennai",
-    "price_inr": 22000000,
-    "area_sqft": 1400,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "property_type": "Independent Flat",
-    "image_url": "https://example.com/img15_1.jpg"
+    "property_type": "Modern Apartment",
+    "image_url": "https://sathrxvulegpaizmmdhs.supabase.co/storage/v1/object/public/properties/photo1/10.jpg"
   }
 ]
