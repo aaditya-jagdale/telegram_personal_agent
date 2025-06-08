@@ -6,7 +6,7 @@ from telegram.ext import MessageHandler, filters
 import asyncio
 import dotenv
 from handlers.incoming_message_handler import handle_text_message, handle_audio_message
-from handlers.agents import knowledge_base
+from handlers.agents import meetings_kb, properties_kb
 
 # Configure logging
 logging.basicConfig(
@@ -37,7 +37,8 @@ custom_bot.add_handler(MessageHandler(filters.AUDIO | filters.VOICE, handle_audi
 if __name__ == "__main__":
     webhook_url = f"https://{NGROK_DOMAIN}/webhook"
     logger.info(f"Using webhook URL: {webhook_url}")
-    knowledge_base.load(recreate=False)
+    meetings_kb.load(recreate=False)
+    properties_kb.load(recreate=False)
     
     # Set webhook and start server
     custom_bot.run_webhook(
